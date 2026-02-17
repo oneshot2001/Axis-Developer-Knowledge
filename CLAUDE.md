@@ -33,7 +33,6 @@ an open-source community resource for the Axis developer ecosystem.
 ## NAMING RULES — NON-NEGOTIABLE
 
 - The project is **AxisX**. Always. No exceptions.
-- ~~AXION~~ is a dead name. If you see it anywhere, it's a bug. Fix it.
 - The platform is AxisX. The knowledge base is axis-developer-knowledge.
 - Axis Communications is the company. Always capitalize correctly.
 - VAPIX is always ALL CAPS. ACAP is always ALL CAPS. ARTPEC is always ALL CAPS.
@@ -51,7 +50,6 @@ Before answering any Axis-related question, load the appropriate file:
 | ACAP development, ARTPEC, DLPU | `development/axis-acap.md` |
 | Where to find official docs | `resources/axis-resources.md` |
 | How integrators ask questions | `intelligence/axisx-voice-patterns.md` |
-| Partner-specific context (LVT, Stone, etc.) | `intelligence/partner-personas.md` |
 | Competitive questions | `intelligence/competitive-context.md` |
 
 **Load the relevant file before answering. Do not rely on training
@@ -116,18 +114,6 @@ Use these in Claude Code sessions:
 
 5. **DLPU is a shared resource.** Always design ACAP applications
    for event-triggered inference, never continuous polling.
-
----
-
-## PARTNER CONTEXT
-
-Key partners documented in `intelligence/partner-personas.md`:
-- **LVT** — Mobile surveillance trailers, power-constrained, technical
-- **Stone** — Enterprise integrator, compliance-focused, IT-savvy
-- **Fred Juhlin (pandosme)** — Axis Sweden/Lund, insider ACAP patterns
-
-When writing features or answering questions, consider which partner
-persona applies and adjust accordingly.
 
 ---
 
